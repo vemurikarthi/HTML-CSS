@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magazine</title>
+    <script src="https://kit.fontawesome.com/fbfbf994f5.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        
+        }
+        .ela{
+            display: flex;
+            align-items: center;
+        }
+
+        
+        .el1{
+            padding: 1% 25%;
+            background-color:white;
+            justify-content: space-between;
+        
+            top: 0;
+            z-index: 1;
+            text-align: center;
+        }
+       nav{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        padding-left: 50px;
+        gap:20px;
+       
+       }
+       a{
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+
+        }
+        .el2{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            background-color:rgba(152, 159, 159, 0.845)  ;
+            
+        }
+        .el3{
+            display: flex;
+            padding: 30px;
+    
+        }
+        .el4{
+            display: flex;
+            padding: 30px;
+            padding-top: 10%;
+    
+
+        }
+        .el5{
+        display: flex;
+        background-color:gray;
+        color: white;
+    }
+    .child7,.child8,.child9,.child10{
+        flex-basis:20% ;
+        padding: 50px;
+        padding-top: 10%;
+        padding-left: 100px;
+    }
+    .A:hover{
+        transform: scale(1.1);
+        transition: 1.8s;
+    }
+    .child7{
+        padding: 5%;
+        padding-top: 9%;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    i{
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    footer{
+        text-align: center;
+        background-color: rgb(22, 21, 21);
+    }
+     @media screen and (max-width: 768px) { 
+        .el1 {
+            padding: 1% 10%;
+            text-align: center;
+        }
+
+        nav {
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0;
+        }
+
+        .el2 {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .ela,
+        .elb {
+            flex-basis: 100%;
+            padding: 10px;
+        }
+
+        .el3 {
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .el4 {
+            flex-direction: column;
+        }
+
+        .el9,
+        .el10 {
+            grid-template-columns: repeat(2, auto);
+        }
+
+        .el6 {
+            flex-direction: column;
+        }
+
+        .el8 {
+            flex-direction: column;
+        }
+
+        .elm {
+            padding: 10%;
+        }
+
+        .el11 {
+            padding-left: 10%;
+            font-size: 30px;
+        }
+
+        .container1,
+        .container2 {
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .child4,
+        .child5,
+        .child6 {
+            width: 100%;
+            height: auto;
+        }
+
+        .el13 {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .child7,
+        .child8,
+        .child9,
+        .child10 {
+            flex-basis: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .el9,
+        .el10 {
+            grid-template-columns: 1fr;
+        }
+
+        .el11 {
+            padding-left: 5%;
+            font-size: 24px;
+        }
+
+        button {
+            width: 80%;
+        }
+    } */
+    /* Default styles */
+.el5 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color:gray;
+}
+
+.el5 div {
+    width: 22%;
+    text-align: center;
+}
+
+.el5 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries */
+
+/* Tablets and small screens */
+@media (max-width: 1024px) {
+    .el5 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .el5 div {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .el5 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .el5 div {
+        width: 80%;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .el5 div {
+        width: 100%;
+    }
+
+    .el5 img {
+        width: 70px;
+        height: auto;
+    }
+
+    footer p {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+
+        </style>
+</head>
+<body>
+    <div class="el1">
+        
+        <h1 style="color: lightcoral;">Jevelin </h1>
+        
+        
+        <nav >
+            <a href="index.html">Home</a>
+            <a href="women.html">women</a>
+            <a href="men.html">men</a>
+             <a href="shoes.html">shoes</a>
+             <a href="magazine.html">Magazine</a>
+    
+             <i class="fa-solid fa-magnifying-glass"></i>
+    
+            <input type="text" value="search" width="100px">
+            <br>
+            <i class="fa-solid fa-cart-shopping"></i>        
+           
+        </nav>
+        </div>
+    <div class="el2">
+        <div>
+            <h1>Magazine</h1>
+
+        </div>
+        <div class="ela">
+            <a href="index.html"><p>Home</p></a>
+            <p>shop</p>
+        </div>
+        </div>
+        <div class="el3">
+            <div class="id1">
+                <img src="https://freedesignfile.com/upload/2017/02/Young-and-beautiful-fashion-woman-HD-picture-05.jpg" alt="" width="90%" height="70%" class="A">
+                
+                <h1>Crowns For queens</h1>
+                <br>
+                <p>by shufflehound July 12, 2019</p>
+                <br>
+                <p>Aliquam ornare mauris quis sapien interdum euismod. Nullam a elementum odio. Vivamus vestibulum bibendum orci, eget ultricies mi luctus et. Nulla fermentum, leo ac…</p>
+            </div>
+            <div class="id2">
+                <img src="https://cdn.pixabay.com/photo/2015/01/15/12/46/woman-600225_1280.jpg" alt="" width="90%" height="70%" class="A">
+                <h1>10 Colors You Need</h1>
+                <br>
+                <p>by shufflehound July 12, 2019</p>
+                <br>
+                <p>Aliquam ornare mauris quis sapien interdum euismod. Nullam a elementum odio. Vivamus vestibulum bibendum orci, eget ultricies mi luctus et. Nulla fermentum, leo ac…</p>
+            </div>
+            <div class="id3">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/01/34/man-1866574_1280.jpg" alt="" width="90%" height="70%" class="A">
+                <h1>Amazing News</h1>
+                <br>
+                <p>by shufflehound July 12, 2019</p>
+                <br>
+                <p>Aliquam ornare mauris quis sapien interdum euismod. Nullam a elementum odio. Vivamus vestibulum bibendum orci, eget ultricies mi luctus et. Nulla fermentum, leo ac…</p>
+            </div>
+        </div>
+        <div class="el4">
+            <div class="id1">
+                <img src="https://freedesignfile.com/upload/2016/11/Beautiful-young-woman-with-a-flower-HD-picture-04-280x235.jpg" alt="" width="90%" height="50%" class="A">
+                <h1>Perfect color to Skin Match</h1>
+                <br>
+                <p>by shufflehound August 23, 2018</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at enim facilisis, luctus elit at, rhoncus sapien. Donec dignissim, lacus tristique aliquam placerat, mi…</p>
+            </div>
+            <div class="id2">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/01/34/man-1866572_1280.jpg" alt="" width="90%" height="50%" class="A">
+                <h1>Leather Trends</h1>
+                <br>
+                <p>by shufflehound August 23, 2018</p>
+                <br>
+                <p>Aliquam euismod, quam in convallis pulvinar, magna ipsum gravida leo, eu fermentum urna urna et nisi. Etiam condimentum porttitor sem, a posuere dolor porttitor…</p>
+            </div>
+            <div class="id3">
+                <img src="https://freedesignfile.com/upload/2017/01/Long-haired-young-beautiful-woman-HD-picture-04-280x235.jpg" alt="" width="90%" height="50%" class="A">
+                <h1>Summer Hits</h1>
+                <br>
+                <p>by shufflehound August 23, 2018</p>
+                <br>
+                <p>Aliquam ornare mauris quis sapien interdum euismod. Nullam a elementum odio. Vivamus vestibulum bibendum orci, eget ultricies mi luctus et. Nulla fermentum, leo ac…</p>
+            </div>
+        </div>
+        <div class="el5"> 
+            <div class="child7">
+            <p>FOLLOW US</p>
+            <br>
+            <p>PAYMENT METHOD</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-paypal"></i>
+            <i class="fa-brands fa-cc-jcb"></i>
+
+
+        </div>
+        <div class="child8">
+            <p>PAYMENT METHOD</p>
+            <br>
+       <a href="men.html"><img src="https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/5711515833_2_1_1-1024x1308.jpg" alt="" width="50px" height="50px">
+       <h6>Denim Trucker Jacket
+        £58.00</h6>
+        </a>
+        <br>
+        <a href="women.html"><img src="https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/5391345406_2_1_1-1-1024x1308.jpg" alt="" width="50px" height="50px">
+            <h6>Striped denim dress
+                £34.00 £19.99</h6>
+        </a>
+        <br>
+        <a href="men.html"><img src="https://jevelin.shufflehound.com/fashion-shop/wp-content/uploads/sites/27/2018/03/5713501400_2_5_1-1024x1308.jpg" alt="" width="50px" height="50px">
+            <h6>Denim Vest
+                £32.00
+                </h6>
+        </a>
+        </div>
+        <div class="child9">
+            <p>SHOPPING GUIDE</p>
+       <a href="index.html"><p>FAQ<br>
+        <br>
+                Shipment<br>
+                <br>
+                Returns<br>
+                <br>
+                Policies<br>
+                <br>
+                Gift cards<br>
+                <br>
+                Clothing care<br>
+                <br>
+                Purchase conditions</p>
+                </a>
+        </div>
+        <div class="child10">
+            <p>COMPANY</p>
+          <a href="index.html"><p>About us<br>
+            <br>
+                Press<br>
+                <br>
+                Our team<br>
+                <br>
+                Offices<br>
+                <br>
+                Affiliates<br>
+                <br>
+                Giveaway<br>
+                <br>
+                Contact</p>
+                </a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Copyright © 2018 JevelinTheme - Theme by Shufflehound</p>
+</footer>
+</body>
+</html>
